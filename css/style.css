@@ -28,6 +28,7 @@ h3 {
   color:#ff9292;
 }
 
+
 hr {
   color: white;
   border-style: none none dotted none;
@@ -38,19 +39,20 @@ hr {
 
 a {
   color: #ff9292;
-  font-family: 'Roboto', sans-serif;
-  margin: auto 15px auto 15px;
-  text-decoration: none;
+   text-decoration: none;
   }
+
 a:hover {
   color: white;
 }
+
 
 /**********CLASS SELECTION***************/
 /*** colour hex: #ff9292, #ffb4b4, #ffdcdc, #ffe8e8 ***/
 
 .bottom-cloud {
   position: absolute;
+  position: fixed;
    bottom: 300px;
     left:  300px;
 }
@@ -120,7 +122,9 @@ a:hover {
   margin-right: 30px;
   width: 25%;
 }
-
+.kabu-head {
+ color: #ff9292;
+}
 .leiroe {
   width:10%;
 }
@@ -157,12 +161,20 @@ a:hover {
 
 .top-cloud {
   position: absolute;
+  position: fixed;
    right: 300px;
    top: 50px;
 }
 
 .top-container {
   background-color: #ffb4b4;
-  padding-top: 100px;
+  padding-top: 70px;
   position: relative;
+}
+
+.footer-link {
+  color: #ff9292;
+  font-family: 'Roboto', sans-serif;
+  margin: auto 15px auto 15px;
+  text-decoration: none;
 }
